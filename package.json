@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gnosis.pm/safe-apps-sdk": "^7.8.0",
+    "@gnosis.pm/safe-apps-web3modal": "^17.0.1",
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-waffle": "^2.0.2",
     "@openzeppelin/contracts": "^4.5.0",
@@ -21,10 +23,11 @@
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "web3modal": "^1.9.5"
+    "web3modal": "^1.9.9"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
+    "dotenv": "^16.0.2",
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.1",
     "postcss": "^8.3.5",
